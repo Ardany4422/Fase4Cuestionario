@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="topnav">
+            <a class="active" href="#Inicio">INICIO</a>
+            <a href="#Inicioseleccionado">SELECCIÓN</a>
+            <a href="#mockup">MOCKUP</a>
+            <a href="#Acercade">ACERCA DE </a>
+          </div>
+    </header>
+
+    <section id="Inicio">
+        <h2>Importante conocer el tema de Selectores CSS</h2>
+        <p>
+            Hay una amplia variedad de selectores CSS, lo que permite una gran precisión a la hora de
+            seleccionar elementos a los que aplicar estilo. En este artículo y sus subartículos veremos con detalle
+            todos los tipos y el modo como funcionan.
+        </p>
+
+        <img src="img/imgen 1.PNG" alt=" descripcion de la imagen">
+
+    </section>
+    <hr>
+    <article id="Inicioseleccionado">
+        <h2> Aprender sobre Selectores CSS de un proyecto TI</h2>
+
+        <h3>Conocer el tema Selectores CSS</h3>
+
+        <p>
+            En CSS los selectores se utilizan para delimitar los elementos HTML de nuestra página web a los que queremos
+            aplicar estilo. Hay una amplia variedad de selectores CSS, lo que permite una gran precisión a la hora de
+            seleccionar elementos a los que aplicar estilo. En este artículo y sus subartículos veremos con detalle
+            todos los tipos y el modo como funcionan.
+
+        </p>
+
+        <h3>¿Qué es un Selector?</h3>
+
+        <p>
+
+            En un artículo anterior explicamos qué son los selectores. Un selector CSS es la primera parte de una regla
+            CSS. Es un patrón de elementos y otros términos que indican al navegador qué elementos HTML se seleccionan
+            para aplicarles una regla que incluye los valores de las propiedades CSS. El elemento o los elementos
+            seleccionados por el selector se denominan sujeto del selector.
+            En artículos anteriores ya has visto algunos selectores y has aprendido que hay diversas maneras de
+            organizar el documento. Por ejemplo, seleccionando un elemento, como h1, o seleccionando una clase, como
+            .especial.
+            En CSS, los selectores se definen en la especificación de selectores de CSS correspondiente; al igual que
+            cualquier otro elemento de CSS, es necesario que los navegadores los admitan para que funcionen. La mayoría
+            de los selectores que encontrarás se definen en especificación de nivel 3 de selectores, que es una
+            especificación consolidada y, por lo tanto, la mayoría de navegadores admitirán esos selectores.
+            Listas de selectores
+
+        </p>
+
+        <h4>Listado de Selectores</h4>
+
+        <p>
+
+            Si más de un elemento utiliza el mismo CSS, puedes combinar los selectores en una lista de selectores para
+            que la regla se aplique a cada uno de los selectores individuales. Por ejemplo, si tengo el mismo CSS para
+            un h1 y para una clase .special, los puedo escribir como dos reglas separadas.
+
+        </p>
+
+    </article>
+    <hr>
+    <article id="mockup">
+        <h3> mockup de la pagina</h3>
+        <img src="img/mockup.png" alt="">
+    </article>
+    <hr>
+    <a name="Acercade"></a>
+    <article>
+        <div class="row">
+            <div class="row col-12"></div>
+            <form action="">
+                <fieldset>
+                    <legend>Contactame</legend>
+                    <label for="fname">Nombres:</label><br>
+                    <input type="text" id="fname" name="fname" value=""><br>
+                    <label for="lname">Apellidos:</label><br>
+                    <input type="text" id="lname" name="lname" value=""><br><br>
+                    <label for="lname">Email:</label><br>
+                    <input type="text" id="lname" name="lname" value=""><br><br>
+                    <label for="lname">Telefono:</label><br>
+                    <input type="text" id="lname" name="lname" value=""><br><br>
+                    <button type="button" class="btn btn-success">ENVIAR</button>
+                </fieldset>
+            </form>
+        </div>
+    </article>
+
+    
+    <div class="footer">
+        <h3>DESARROLLOS PIAMBA S.A</h3>
+        <div class="user-contact"> 
+            <h5> Mis datos de contacto: </h5>
+            <h5> skype: Unad Javier </h5>
+            <h5> telefono: 3136036448 </h5>
+            <h5> email: javierpiamba06@gmail.com </h5>
+            <h5> Estudiante Ingeneria de Sistemas</h5>
+        </div>
+        <div class="icon-user">
+        </div>
+    </div>  
+</body>
+</html>
+
+CSS
+
+.topnav {
+    background-color: #a9fadb;
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    color: #030303;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+  .topnav a.active {
+    background-color: #dfdfdf;
+    color: rgb(0, 0, 0);
+  }
+
+  body{
+    text-align: center;
+
+}
+header{
+    background-color: aquamarine;
+}
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+
+    .footer {
+        background-color: #a9fadb;
+        color: #030303;
+       }
